@@ -25,6 +25,8 @@
             <artifactId>javafx-fxml</artifactId>
             <version>19.0.2</version>
         </dependency>
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
@@ -133,7 +135,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.posandroidbasedapp/com.example.posandroidbasedapp.HelloApplication
+                            <mainClass>com.example.posandroidbasedapp/com.example.posandroidbasedapp.MainMenuForm
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
